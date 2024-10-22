@@ -1,0 +1,93 @@
+a:hover {
+  text-decoration: underline !important; 
+}
+
+
+
+input{
+  border-radius: 2px !important;
+  border: 1px solid gray !important ;
+  height: 40px !important;
+}
+
+.input:focus{
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray;
+}
+
+label{
+  font-size: 16px !important;
+  color:black
+}
+
+.ant-form-item{
+  margin: 10px 0 !important;
+}
+
+.card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.normal-text{
+  font-size: 1rem;
+}
+
+.card{
+  box-shadow:0 0 2px gray;
+  border-radius: 0 !important;
+  background-color:rgba(0, 0, 0, 0.432);
+}
+
+
+
+
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#005555;
+  /* background-image: url('/public/pexels-disha-sheta-596631-4010464.jpg'); */
+  background-size: cover;
+}
+
+.authentication-form {
+  width: 400px;
+}
+
+.authentication .card-title { /* Fixed selector */
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered; 
+  color:white !important; 
+  max-width: max-content !important; 
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+
+.anchor{
+  color: black !important;
+  text-decoration: underline !important;
+  font-size: 16px !important;
+}
+
+.anchor:hover{
+  text-decoration: underline !important;
+}
+
+.primary-button {
+  background-color: #553000;
+  border-color: #005555;
+  height: 40px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+}
